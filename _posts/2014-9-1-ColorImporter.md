@@ -41,41 +41,45 @@ The storing of the (hex) values is done by the JSONPersistency plugin, so you ac
 
 More on how to use the JSONPersistency here:
 
-Basically the Persistency is done with the `myData` :
+Basically the Persistency is done with the `myData`: 
 
-{% highlight javascript %}
+{% highlight csharp %}
 
     /* Class definition for the color palette variables which will be stored to disk */
 
     [Serializable]
     public class data
     {
-
             /* the url to the palette */
             [SerializeField]
-            public string
-                    paletteURL = "";
+            public string paletteURL = "";
+            
+            [SerializeField]
+            public bool loadPercent = false;
 
             [SerializeField]
-            public bool
-                    loadPercent = false;
-
+            public Color[] colors = new Color[5];
 
             [SerializeField]
-            public Color[]
-                    colors = new Color[5];
+            public float[] percentages = new float[5];
 
             [SerializeField]
-            public float[]
-                    percentages = new float[5];
-
-            [SerializeField]
-            public float
-                    totalWidth = 0;
+            public float totalWidth = 0;
     }
 
     // here is the actual reference to the data
     public data myData;
         
 {% endhighlight %}
+
+
+Which means all the palette data can accessed like so:
+
+{% highlight c# %}
+    for (int i = 0; i < myImporter.myData.colors.Length; i++) {
+            Color col = myImporter.myData.colors [i];
+            float width = myImporter.myData.percentages [i] * (Screen.width - 35);
+
+{% endhighlight %}
+
 
