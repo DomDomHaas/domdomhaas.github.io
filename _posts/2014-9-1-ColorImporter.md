@@ -3,7 +3,7 @@ layout: post
 title: ColorImporter for Unity
 ---
 
-This is a plugin for **Unity** too use **Color Palettes** from www.pltts.me or www.colourlovers.com.
+This is a plugin for **Unity** too use **Color Palettes** from [pltts.me](https://www.pltts.me) or [colourlovers.com](https://www.colourlovers.com).
 
 Get it at: <http://github.com/DomDomHaas/ColorImporter>
 
@@ -36,7 +36,8 @@ If your using multiple gameobjects with ColorImporter scripts, make sure they ha
 
 ## How to integrate it
 
-The storing of the (hex) values is done by the JSONPersistency plugin, so you actually get two plugins in one :]
+The storing of the (hex) values is done by the JSONPersistency plugin, so you actually get two plugins in one ![_uuuuu_]({{ site.baseurl }}/images/smileys/uuuuuu.jpg)
+
 
 More on how to use the JSONPersistency here:
 
