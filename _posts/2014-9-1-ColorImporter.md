@@ -14,7 +14,7 @@ The **ColorImporter** does extract the colors from the HTML Page from the given 
 
 1. Download: [HTMLSharp](https://github.com/wallerdev/htmlsharp) an HTMLParser for C#
 2. Extract the "HTMLSharp" Folder into your Asset folder of your Unity project
-3. Set your Playersettings "API Compatibility Level" to **".NET 2.0"** NOT _".NET 2.0 subset"_ (otherwise the System.Web is missing)
+3. Set your Playersettings "API Compatibility Level" to **".NET 2.0"** not _".NET 2.0 subset"_ (otherwise the System.Web is missing)
 
 
 
