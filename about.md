@@ -3,12 +3,17 @@ layout: page
 title: About
 ---
 
-Some information about you!
+I'm passionated about interactive application and of course especially about games. I've been working for several years in software development and recently start studying **GameDesign**.
 
-### More Information
 
-A place to include any other types of information that you'd like to include about yourself. 
+### Portfolio
+
+Have a look at some of my work other than programming:
+[GameDesign - Portfolio](http://www.dominikhaas.com) : <http://www.dominikhaas.com>
+
+
 
 ### Contact me
 
-[email@domain.com](mailto:email@domain.com)
+Besides the different online platforms feel free to contact me via email:
+[dominik.haas_at_gmx.ch](mailto:dominik.haas@gmx.ch)
