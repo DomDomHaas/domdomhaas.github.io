@@ -11,6 +11,7 @@ The **ColorImporter** does extract the colors from the HTML Page from the given 
 
 
 ## How to setup
+---
 
 1. Download: [HTMLSharp](https://github.com/wallerdev/htmlsharp) an HTMLParser for C#
 2. Extract the "HTMLSharp" Folder into your Asset folder of your Unity project
@@ -19,6 +20,7 @@ The **ColorImporter** does extract the colors from the HTML Page from the given 
 
 
 ## How to use
+---
 
 Three steps of use it:
 
@@ -35,6 +37,7 @@ If your using multiple gameobjects with ColorImporter scripts, make sure they ha
 
 
 ## How to integrate it
+---
 
 The storing of the (hex) values is done by the JSONPersistency plugin, so you actually get two plugins in one ![_uuuuu_]({{ site.baseurl }}/images/smileys/uuuuu_small.png)
 
@@ -78,7 +81,12 @@ Which means all the palette data can accessed like so:
 {% highlight c# %}
     for (int i = 0; i < myImporter.myData.colors.Length; i++) {
             Color col = myImporter.myData.colors [i];
-            float width = myImporter.myData.percentages [i] * (Screen.width - 35);
+            float percent = myImporter.myData.percentages [i];
+    
+    
+            // do awesome stuff with the color plaette
+            
+    }
 
 {% endhighlight %}
 
