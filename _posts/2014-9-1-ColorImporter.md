@@ -8,19 +8,19 @@ This is a plugin for **Unity** too use **Color Palettes** from [pltts.me](https:
 Get it at: <http://github.com/DomDomHaas/ColorImporter>
 
 The **ColorImporter** does extract the colors from the HTML Page from the given link, so in order to make that work a few steps are needed.
+---
 
 
 ## How to setup
----
 
 1. Download: [HTMLSharp](https://github.com/wallerdev/htmlsharp) an HTMLParser for C#
-2. Extract the "HTMLSharp" Folder into your Asset folder of your Unity project
+2. Extract the **"HTMLSharp" Folder** into your Asset folder of your Unity project
 3. Set your Playersettings "API Compatibility Level" to **".NET 2.0"** not _".NET 2.0 subset"_ (otherwise the System.Web is missing)
+---
 
 
 
 ## How to use
----
 
 Three steps of use it:
 
@@ -33,11 +33,11 @@ Three steps of use it:
 
 The **"load from file"** will be called in the Awake of the **ColorImporter** script.
 If your using multiple gameobjects with ColorImporter scripts, make sure they have different names!
+---
 
 
 
 ## How to integrate it
----
 
 The storing of the (hex) values is done by the JSONPersistency plugin, so you actually get two plugins in one ![_uuuuu_]({{ site.baseurl }}/images/smileys/uuuuu_small.png)
 
@@ -90,4 +90,5 @@ Which means all the palette data can accessed like so:
 
 {% endhighlight %}
 
+---
 
