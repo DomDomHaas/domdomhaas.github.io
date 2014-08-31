@@ -36,7 +36,7 @@ If your using multiple gameobjects with ColorImporter scripts, make sure they ha
 
 ## How to integrate it
 
-The storing of the (hex) values is done by the JSONPersistency plugin, so you actually get two plugins in one ![_uuuuu_]({{ site.baseurl }}/images/smileys/uuuuuu.jpg)
+The storing of the (hex) values is done by the JSONPersistency plugin, so you actually get two plugins in one ![_uuuuu_]({{ site.baseurl }}/images/smileys/uuuuu.jpg)
 
 
 More on how to use the JSONPersistency here:
