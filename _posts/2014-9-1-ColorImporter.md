@@ -95,3 +95,7 @@ Which means all the palette data can accessed like so:
 
 ***
 
+
+And that's it so far, contributation is always welcome: <http://github.com/DomDomHaas/ColorImporter>
+
+
