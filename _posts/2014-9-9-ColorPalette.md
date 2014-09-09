@@ -11,6 +11,7 @@ This is a plugin for **Unity** too use **Color Palettes** get it at: <http://git
 ## How to setup
 
 If you want to use only the ColorPaletts make sure to use following scripts from the [repo](http://github.com/DomDomHaas/ColorPalette):
+
 * PaletteData.cs
 * Palette.cs
 * At least the PaletteInspector.cs from the Editor folder (it has to be put into a "Editor" folder)

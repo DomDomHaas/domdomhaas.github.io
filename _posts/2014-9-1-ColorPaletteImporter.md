@@ -16,6 +16,7 @@ Get it at: <http://github.com/DomDomHaas/ColorPalette>
 
 
 If you want to use the **ColorPalettImporter** make sure to include the all the scripts from [**ColorPalette**](http://domdomhaas.github.io/ColorPalette/) and also the follwing:
+
 * PaletteImporterData.cs
 * PaletteImporter.cs
 * All files from the Editor folder
