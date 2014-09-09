@@ -9,7 +9,7 @@ I'm passionated about interactive application and of course especially about gam
 ### Portfolio
 
 Have a look at some of my work other than programming:
-[GameDesign - Portfolio](http://www.dominikhaas.com) : <http://www.dominikhaas.com>
+[GameDesign - Portfolio](http://www.dominikhaas.ch) : <http://www.dominikhaas.ch>
 
 
 
