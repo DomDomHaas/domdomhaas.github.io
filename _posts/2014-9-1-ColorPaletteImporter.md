@@ -16,11 +16,11 @@ In addition to the functionallity of the [**ColorPalette**](http://domdomhaas.gi
 
 
 If you want to use the **ColorPalettImporter** make sure to include the all the scripts from [**ColorPalette**](http://domdomhaas.github.io/ColorPalette/) and also the follwing:
-- PaletteImporterData.cs
-- PaletteImporter.cs
-- All files from the Editor folder
-- **Additionally** add HtmlSharp (HtmlParser: https://github.com/wallerdev/htmlsharp extract at least the "HtmlSharp" folder into your asset folder)
-- **Change the Playersettings** "API Compatibility Level" of Unity has to be set to ".NET 2.0" NOT ".NET 2.0 subset" (otherwise the System.Web is missing)
+* PaletteImporterData.cs
+* PaletteImporter.cs
+* All files from the Editor folder
+* **Additionally** add HtmlSharp (HtmlParser: https://github.com/wallerdev/htmlsharp extract at least the "HtmlSharp" folder into your asset folder)
+* **Change the Playersettings** "API Compatibility Level" of Unity has to be set to ".NET 2.0" NOT ".NET 2.0 subset" (otherwise the System.Web is missing)
 
 ***
 

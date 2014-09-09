@@ -13,10 +13,10 @@ The [**ColorPaletteImporter**](http://domdomhaas.github.io/ColorPaletteImporter/
 ## How to setup
 
 If you want to use only the ColorPaletts make sure to use following scripts from the [repo](http://github.com/DomDomHaas/ColorPalette):
-- PaletteData.cs
-- Palette.cs
-- At least the PaletteInspector.cs from the Editor folder (it has to be put into a "Editor" folder)
-- All files of the folder **JSONPersistent** (it's actually another Tool for saving things to a txt-file)
+* PaletteData.cs
+* Palette.cs
+* At least the PaletteInspector.cs from the Editor folder (it has to be put into a "Editor" folder)
+* All files of the folder **JSONPersistent** (it's actually another Tool for saving things to a txt-file)
 
 
 ***
