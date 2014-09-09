@@ -51,17 +51,17 @@ Access the PlaetteImporterData like so:
 
 {% highlight c# %}
 
-    // this isn't the best way to find and you should do it in the Awake() function!
-    PlaetteImporter yourAwesomePalette = GameObject.Find("TheNameOfYourGameObject").GetComponent<PaletteImporter>();
+// this isn't the best way to find and you should do it in the Awake() function!
+PlaetteImporter yourAwesomePalette = GameObject.Find("NameOfGameObject").GetComponent<PaletteImporter>();
 
-    for (int i = 0; i < yourAwesomePalette.myData.colors.Length; i++) {
-            Color col = yourAwesomePalette.myData.colors [i];
-            float percent = yourAwesomePalette.myData.percentages [i];
-    
-    
-            // do awesome stuff with your color plaette
-            
-    }
+for (int i = 0; i < yourAwesomePalette.myData.colors.Length; i++) {
+        Color col = yourAwesomePalette.myData.colors [i];
+        float percent = yourAwesomePalette.myData.percentages [i];
+
+
+        // do awesome stuff with your color plaette
+
+}
 
 {% endhighlight %}
 

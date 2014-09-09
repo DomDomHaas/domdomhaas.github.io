@@ -82,7 +82,7 @@ Which means all the palette data can accessed like so:
 {% highlight c# %}
 
 // this isn't the best way to find and you should do it in the Awake() function!
-Plaette yourAwesomePalette = GameObject.Find("TheNameOfYourGameObject").GetComponent<Palette>();
+Plaette yourAwesomePalette = GameObject.Find("NameOfGameObject").GetComponent<Palette>();
 
 for (int i = 0; i < yourAwesomePalette.myData.colors.Length; i++) {
     Color col = yourAwesomePalette.myData.colors [i];
