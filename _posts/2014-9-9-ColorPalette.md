@@ -48,31 +48,28 @@ Basically the storing of the colors is done with the `myData.colors` and `myData
 
 {% highlight csharp %}
 
-    /* Class definition for the color data of the palette variables which will be stored to disk */
+/* Class definition for the color data of the palette variables */
+/* which will be stored to disk */
 
-		public class PaletteData
-		{
-				public PaletteData ()
-				{
-				}
+    public class PaletteData
+    {
+        public PaletteData ()
+        {
+        }
 
-				[SerializeField]
-				public Color[]
-						colors;
+        [SerializeField]
+        public Color[] colors;
 
-				[SerializeField]
-				public float[]
-						alphas;
+        [SerializeField]
+        public float[] alphas;
 
-				[SerializeField]
-				public float[]
-						percentages;
-				
-				[SerializeField]
-				public float
-						totalWidth;
+        [SerializeField]
+        public float[] percentages;
 
-		}
+        [SerializeField]
+        public float totalWidth;
+
+    }
 
 
 /* This Class is used by the Plaette.cs and the PaletteImporterData.cs extends it */
@@ -84,19 +81,20 @@ Which means all the palette data can accessed like so:
 
 {% highlight c# %}
 
-    // this isn't the best way to find and you should do it in the Awake() function!
-    Plaette yourAwesomePalette = GameObject.Find("TheNameOfYourGameObject").GetComponent<Palette>();
+// this isn't the best way to find and you should do it in the Awake() function!
+Plaette yourAwesomePalette = GameObject.Find("TheNameOfYourGameObject").GetComponent<Palette>();
 
-    for (int i = 0; i < yourAwesomePalette.myData.colors.Length; i++) {
-            Color col = yourAwesomePalette.myData.colors [i];
-            float percent = yourAwesomePalette.myData.percentages [i];
-    
-    
-            // do awesome stuff with your color plaette
-            
-    }
+for (int i = 0; i < yourAwesomePalette.myData.colors.Length; i++) {
+    Color col = yourAwesomePalette.myData.colors [i];
+    float percent = yourAwesomePalette.myData.percentages [i];
+
+
+    // do awesome stuff with your color plaette
+
+}
 
 {% endhighlight %}
+
 
 ***
 
