@@ -5,6 +5,8 @@ title: ColorPalette for Unity
 
 This is a plugin for **Unity** too use **Color Palettes** get it at: <http://github.com/DomDomHaas/ColorPalette>
 
+![ohhh]({{ site.baseurl }}/images/smileys/narrow_small.png)
+
 ***
 
 
@@ -29,7 +31,7 @@ Add the Palette.cs on a gameobject and start creating your palette.
 ![Palette UI preview]({{ site.baseurl }}/images/colorpalette/Preview.png)
 
 Open the "Change Color" part and start changing the colors and it's percentages. Make sure to click on the **Save-Button** once you're finished!
-(If your using multiple gameobjects with ColorImporter scripts, make sure they have different names!)
+(If your using multiple gameobjects with Palettes scripts, make sure they have different names!)
 
 ***
 
@@ -44,7 +46,9 @@ The [**ColorPaletteImporter**](http://domdomhaas.github.io/ColorPaletteImporter/
 
 ## How to integrate it
 
-The storing of the (hex) values is done by the JSONPersistency plugin, so you actually get two plugins in one ![_uuuuu_]({{ site.baseurl }}/images/smileys/uuuuu_small.png)
+The storing of the (hex) values is done by the JSONPersistency plugin, so you actually get two plugins in one
+
+![_uuuuu_]({{ site.baseurl }}/images/smileys/uuuuu_small.png)
 
 
 More on how to use the JSONPersistency is soon to come.
@@ -107,6 +111,9 @@ for (int i = 0; i < yourAwesomePalette.myData.colors.Length; i++) {
 
 
 If you found this Tool useful please consider a small donation:
+
+![please]({{ site.baseurl }}/images/smileys/please_small.png)
+
 
 <div class="flatter_button">
     <a href="https://flattr.com/submit/auto?user_id=DomDomHaas&url=http%3A%2F%2Fdomdomhaas.github.io%2FColorPalette%2F" target="_blank"><img src="//api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a>
