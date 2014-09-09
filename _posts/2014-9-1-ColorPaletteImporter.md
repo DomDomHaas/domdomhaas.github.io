@@ -72,6 +72,9 @@ See the **How to integrate it** part of the [**ColorPalette**](http://domdomhaas
 ***
 
 
-And that's it so far, contributation is always welcome: <http://github.com/DomDomHaas/ColorPalette>
 
+If you found this Tool useful please consider a small donation:
+<script id='fbp1i49'>
+(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=DomDomHaas&button=compact&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbp1i49');
+</script>
 
