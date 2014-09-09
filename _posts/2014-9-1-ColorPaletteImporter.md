@@ -1,13 +1,13 @@
 ---
 layout: post
-title: ColorImporter for Unity
+title: ColorPaletteImporter for Unity
 ---
 
 This is a plugin for **Unity** too use **Color Palettes** from [pltts.me](https://www.pltts.me) or [colourlovers.com](https://www.colourlovers.com).
 
-Get it at: <http://github.com/DomDomHaas/ColorImporter>
+Get it at: <http://github.com/DomDomHaas/ColorPalette>
 
-The **ColorImporter** does extract the colors from the HTML Page from the given link, so in order to make that work a few steps are needed.
+The **ColorPaletteImporter** does extract the colors from the HTML Page from the given link, so in order to make that work a few steps are needed.
 
 ***
 
@@ -52,30 +52,34 @@ Basically the Persistency is done with the `myData`:
 
 {% highlight csharp %}
 
-    /* Class definition for the color palette variables which will be stored to disk */
+    /* Class definition for the color data of the palette variables which will be stored to disk */
 
-    [Serializable]
-    public class data
-    {
-            /* the url to the palette */
-            [SerializeField]
-            public string paletteURL = "";
-            
-            [SerializeField]
-            public bool loadPercent = false;
+		public class PaletteData
+		{
+				public PaletteData ()
+				{
+				}
 
-            [SerializeField]
-            public Color[] colors = new Color[5];
+				[SerializeField]
+				public Color[]
+						colors;
 
-            [SerializeField]
-            public float[] percentages = new float[5];
+				[SerializeField]
+				public float[]
+						alphas;
 
-            [SerializeField]
-            public float totalWidth = 0;
-    }
+				[SerializeField]
+				public float[]
+						percentages;
+				
+				[SerializeField]
+				public float
+						totalWidth;
 
-    // here is the actual reference to the data
-    public data myData;
+		}
+
+
+/* This Class is used by the Plaette.cs and the PaletteImporterData.cs extends it */
         
 {% endhighlight %}
 
@@ -97,6 +101,6 @@ Which means all the palette data can accessed like so:
 ***
 
 
-And that's it so far, contributation is always welcome: <http://github.com/DomDomHaas/ColorImporter>
+And that's it so far, contributation is always welcome: <http://github.com/DomDomHaas/ColorPalette>
 
 
