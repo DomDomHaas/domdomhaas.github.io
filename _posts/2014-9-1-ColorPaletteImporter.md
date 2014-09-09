@@ -4,10 +4,10 @@ title: ColorPaletteImporter for Unity
 ---
 
 This is a plugin for **Unity** too use **Color Palettes** from [pltts.me](https://www.pltts.me) or [colourlovers.com](https://www.colourlovers.com).
+In addition to the functionallity of the [**ColorPalette**](http://domdomhaas.github.io/ColorPalette/) the **ColorPaletteImporter** does extract the colors from the HTML Page from the given link.
 
 Get it at: <http://github.com/DomDomHaas/ColorPalette>
 
-In addition to the functionallity of the [**ColorPalette**](http://domdomhaas.github.io/ColorPalette/) the **ColorPaletteImporter** does extract the colors from the HTML Page from the given link.
 
 ***
 

@@ -5,8 +5,6 @@ title: ColorPalette for Unity
 
 This is a plugin for **Unity** too use **Color Palettes** get it at: <http://github.com/DomDomHaas/ColorPalette>
 
-The [**ColorPaletteImporter**](http://domdomhaas.github.io/ColorPaletteImporter/) does extract the colors from the HTML Page from the given link from [pltts.me](https://www.pltts.me) or [colourlovers.com](https://www.colourlovers.com).
-
 ***
 
 
@@ -34,6 +32,13 @@ Open the "Change Color" part and start changing the colors and it's percentages.
 
 ***
 
+
+## ColorPaletteImporter
+
+The [**ColorPaletteImporter**](http://domdomhaas.github.io/ColorPaletteImporter/) does extract the colors from the HTML Page from the given link from [pltts.me](https://www.pltts.me) or [colourlovers.com](https://www.colourlovers.com).
+
+
+***
 
 
 ## How to integrate it
