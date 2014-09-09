@@ -3,11 +3,11 @@ layout: post
 title: ColorPalette for Unity
 ---
 
-This is a plugin for **Unity** too use **Color Palettes** get it at: <http://github.com/DomDomHaas/ColorPalette>
+This is a plugin for **Unity** too use **Color Palettes**
 
 ![ohhh]({{ site.baseurl }}/images/smileys/narrow_small.png)
 
-***
+Get it for **Free** at: <http://github.com/DomDomHaas/ColorPalette>
 
 
 ## How to setup
@@ -26,11 +26,17 @@ If you want to use only the ColorPaletts make sure to use following scripts from
 
 ## How to use the Palette
 
-Add the Palette.cs on a gameobject and start creating your palette.
+Add the Palette.cs on a gameobject and start creating your palette. 
 
 ![Palette UI preview]({{ site.baseurl }}/images/colorpalette/Preview.png)
 
-Open the "Change Color" part and start changing the colors and it's percentages. Make sure to click on the **Save-Button** once you're finished!
+Open the "Change Color" Tab and start changing the colors and it's percentages.
+
+Change a colors via the ColorPicker on the left or change the HexDecimal Value either on the "Change Color" Tab or directly in the Plaette Tab.
+
+If you click on "Add Color" a new color (black by default) will be added to the right. "Remove last Color" will remove the last one on the right.
+
+Make sure to click on the **Save-Button** once you're finished!
 (If your using multiple gameobjects with Palettes scripts, make sure they have different names!)
 
 ***
