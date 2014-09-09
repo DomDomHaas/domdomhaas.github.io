@@ -116,5 +116,5 @@ If you found this Tool useful consider a small donation:
     <a href="https://flattr.com/submit/auto?user_id=DomDomHaas&url=http%3A%2F%2Fdomdomhaas.github.io%2FColorPalette%2F" target="_blank"><img src="//api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a>
 </div>
 
-![please]({{ site.baseurl }}/images/smileys/please_small.png) Please?
+Please... ![please]({{ site.baseurl }}/images/smileys/please_small.png)
 

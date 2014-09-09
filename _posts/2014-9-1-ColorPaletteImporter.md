@@ -73,9 +73,10 @@ See the **How to integrate it** part of the [**ColorPalette**](http://domdomhaas
 
 
 
-If you found this Tool useful please consider a small donation:
+If you found this Tool useful consider a small donation:
 
 <div class="flatter_button">
     <a href="https://flattr.com/submit/auto?user_id=DomDomHaas&url=http%3A%2F%2Fdomdomhaas.github.io%2FColorPaletteImporter%2F" target="_blank"><img src="//api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a>
 </div>
 
+Please... ![please]({{ site.baseurl }}/images/smileys/please_small.png)
