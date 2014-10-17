@@ -37,7 +37,6 @@ Change a colors via the ColorPicker on the left or change the HexDecimal Value e
 If you click on "Add Color" a new color (black by default) will be added to the right. "Remove last Color" will remove the last one on the right.
 
 Make sure to click on the **Save-Button** once you're finished!
-(If your using multiple gameobjects with Palettes scripts, make sure they have different names!)
 
 ***
 
@@ -116,12 +115,11 @@ for (int i = 0; i < yourAwesomePalette.myData.colors.Length; i++) {
 ***
 
 
-
-If you found this Tool useful consider a small donation:
+Did you like this post? Please consider a small donation:
 
 <div class="flatter_button">
     <a href="https://flattr.com/submit/auto?user_id=DomDomHaas&url=http%3A%2F%2Fdomdomhaas.github.io%2FColorPalette%2F" target="_blank"><img src="//api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a>
 </div>
 
-Please... ![please]({{ site.baseurl }}/images/smileys/please_small.png)
+![please]({{ site.baseurl }}/images/smileys/please_small.png)
 
