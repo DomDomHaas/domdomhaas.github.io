@@ -9,6 +9,7 @@ When you're reading the documentation, you proably look something like this:
 
 ![confused]({{ site.baseurl }}/images/smileys/angry_small.png)
 
+
 They don't provide much information:
 
 {% highlight c# %}
@@ -96,7 +97,6 @@ It can be easily check via contains() from the Rect class.
 
     private void checkDragable (Rect colRect, Color col)
     {
-
         string DragKey = "Color";
 
         if (Event.current.type == EventType.DragUpdated
@@ -131,7 +131,7 @@ It can be easily check via contains() from the Rect class.
 
 
 
-Did you like this post? Please consider a small donation, so I can grab a coffe:
+Did you like this post? Please consider a small donation, so I can grab a coffee:
 
 <div class="flatter_button">
     <a href="https://flattr.com/submit/auto?user_id=DomDomHaas&url=http%3A%2F%2Fdomdomhaas.github.io%2FColorPaletteImporter%2F" target="_blank"><img src="//api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a>
