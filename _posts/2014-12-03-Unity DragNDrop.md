@@ -7,20 +7,30 @@ title: Drag'n'Drop in the UnityEditor
 
 When you're reading the documentation, you proably look something like this:
 
+
 ![confused]({{ site.baseurl }}/images/smileys/angry_small.png)
 
 
-They don't provide much information:
+Because they don't provide very much information.
+Here is a snippet of DragAndDrop.GetGenericData() and DragAndDrop.AcceptDrag():
+
+
 
 {% highlight c# %}
 
     // Description in the Unity Docs
 
     DragAndDrop.GetGenericData
-    static object GetGenericData(string type);
+    public static object GetGenericData(string type);
+    
     Description
-
     Get data associated with current drag and drop operation.
+    
+    public static void AcceptDrag();
+    
+    Description
+    Accept a drag operation.
+    
 
 {% endhighlight %}
 
