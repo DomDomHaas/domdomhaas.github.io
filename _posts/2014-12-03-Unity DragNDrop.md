@@ -3,18 +3,17 @@ layout: post
 title: DragNDrop in the UnityEditor
 ---
 
-DragAndDrop for Unity is not too understandable...  <a href="http://docs.unity3d.com/ScriptReference/DragAndDrop.html" target="_blank">http://docs.unity3d.com/ScriptReference/DragAndDrop.html</a>
+<a href="http://docs.unity3d.com/ScriptReference/DragAndDrop.html" target="_blank">DragAndDrop for Unity</a> is not too understandable...  
 
 {% highlight c# %}
 
-// Description in the Unity Docs
+    // Description in the Unity Docs
 
     DragAndDrop.GetGenericData
     static object GetGenericData(string type);
     Description
 
     Get data associated with current drag and drop operation.
-
 
 {% endhighlight %}
 
