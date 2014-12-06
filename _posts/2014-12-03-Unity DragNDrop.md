@@ -141,9 +141,11 @@ It can be easily check via contains() from the Rect class.
 
 
 
-Did you like this post? Please consider a small donation, so I can grab a coffee.
+Did you like this post?
 
 ![please]({{ site.baseurl }}/images/smileys/mmmhhh_small.png)
+
+Please consider a small donation, so I can grab a coffee:
 
 <div class="flatter_button">
     <a href="https://flattr.com/submit/auto?user_id=DomDomHaas&url=http%3A%2F%2Fdomdomhaas.github.io%2FUnity%2520DragNDrop%2F" target="_blank"><img src="//api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a>
