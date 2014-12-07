@@ -3,7 +3,7 @@ layout: post
 title: ColorPalette for Unity
 ---
 
-This is a plugin for **Unity** too use **Color Palettes**
+This is a plugin for **Unity** to use **Color Palettes**
 
 ![ohhh]({{ site.baseurl }}/images/smileys/narrow_small.png)
 
