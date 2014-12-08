@@ -29,6 +29,7 @@ And here is how you can do it too: ![confused]({{ site.baseurl }}/images/smileys
 
 {% highlight c# %}
 // This is a copy of the "m_localIndentiferInFile"
+// (don't forget to use [Serializable] on the class)
 [SerializeField]
 private int persistentID = -1;
 {% endhighlight %}
