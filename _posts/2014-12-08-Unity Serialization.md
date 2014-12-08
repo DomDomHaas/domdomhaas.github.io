@@ -18,6 +18,8 @@ So I figured there must be a way to use the same part for my case. A main proble
 
 **Long story short:**
 After trying many things I came up with a simple workaround, which is creating a copy of the "m_LocalIdentfierInFile" while being in the UnityEditor and saving it as serialized property.
+**Spoiler:** It won't work for GameObjects / Components which are created during runtime. 
+
 
 And here is how you can do it too: ![confused]({{ site.baseurl }}/images/smileys/narrow_small.png)
 
@@ -25,7 +27,7 @@ And here is how you can do it too: ![confused]({{ site.baseurl }}/images/smileys
 {% highlight c# %}
     // This is a copy of the "m_localIndentiferInFile"
     [SerializeField]
-    private int persistentID = -1;    
+    private int persistentID = -1;
 {% endhighlight %}
 
 
@@ -71,17 +73,15 @@ This only works once the scene is saved (before there is no "m_LocalIdentfierInF
 
 
 
-Usually if you drag an Prefab into a scene you will at some point click on it and do something with it, but it's not a very nice workflow. ![confused]({{ site.baseurl }}/images/smileys/confused_small.png)
+Usually if you drag an Prefab into a scene you will at some point click on it and do something with it, but it's not a very nice workflow.
+![confused]({{ site.baseurl }}/images/smileys/confused_small.png)
 There is the possibility to hook in when the scene is **being saved**, unfortunately Unity doesn't provide a function to hook in **after** a scene was saved. So here's a code snippet to call the init() function before a scene is saved.
 
 {% highlight c# %}
     static string[] OnWillSaveAssets (string[] paths)
     {
-
         Object[] objs = Component.FindObjectsOfType (typeof(PersistObject));
-
         //Debug.Log ("OnWillSaveAssets " + objs.Length);
-
         foreach (Object obj in objs) {
                 PersistObject persist = (PersistObject)obj;
                 persist.init ();
@@ -93,8 +93,7 @@ There is the possibility to hook in when the scene is **being saved**, unfortuna
 
 (Find the full script on <a href="https://gist.github.com/DomDomHaas/74b337f8c061fa096185" target="_blank">my Gist</a> it's specific for my implementation so copy/paste won't work directly, but you can see how it works)
 
-Using that hook means you if you create an GameObject which uses the Editor-Snippet to get the "m_LocalIdentfierInFile" you have to save the scene at least twice after that. First time to set the "m_LocalIdentfierInFile" by Unity itself and second to store it in the local variable. It is not the most convenient way, just setup a scene with the persistent GameObject first.
-
+Using that hook means: if you create an GameObject which uses the Editor-Snippet to get the "m_LocalIdentfierInFile" you have to save the scene at least twice after that. First time to set the "m_LocalIdentfierInFile" by Unity itself and second to store it in the local variable. It is not the most convenient way, but good enough, just setup a scene with the persistent GameObject first.
 
 
 ---
@@ -106,7 +105,10 @@ Was my nerd work useful to you?
 
 Please consider a small donation, and give me some fuel aka. coffee to dig into further programming problems:
 
-<div class="flatter_button">
+<!--div class="flatter_button">
     <a href="https://flattr.com/submit/auto?user_id=DomDomHaas&url=http%3A%2F%2Fdomdomhaas.github.io%2FUnity%2520Serialization%2F" target="_blank"><img src="//api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a>
-</div>
+</div-->
+
+
+<script id='fbqf99r'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=DomDomHaas&button=compact&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbqf99r');</script>
 
