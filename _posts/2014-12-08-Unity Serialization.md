@@ -19,6 +19,9 @@ So I figured there must be a way to use the same part for my case. A main proble
 **Long story short:**
 After trying many things I came up with a simple workaround, which is creating a copy of the "m_LocalIdentfierInFile" while being in the UnityEditor and saving it as serialized property.
 
+And here is how you can do it too: ![confused]({{ site.baseurl }}/images/smileys/narrow_small.png)
+
+
 {% highlight c# %}
     // This is a copy of the "m_localIndentiferInFile"
     [SerializeField]
