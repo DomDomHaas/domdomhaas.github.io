@@ -6,7 +6,7 @@ title: Unity Serialization and persistency
 Unity Serialization is pretty good for primitive datatypes, as far a I know, but if you use it for bigger things it as some fundamental flaws.
 (ex. <a href="http://www.reddit.com/r/Unity3D/comments/2e9vlg/unity_serialization_is_truly_fubar/" target="_blank">http://www.reddit.com/r/Unity3D/comments/2e9vlg/unity_serialization_is_truly_fubar/</a>, <a href="http://blogs.unity3d.com/2014/06/24/serialization-in-unity/" target="_blank" >http://blogs.unity3d.com/2014/06/24/serialization-in-unity/</a>, etc.)
 
-In my case I wanted to have a connection of a component and a file and it should be persistent. The InstanceID of an Component (aswell as from the GameObject) isn't any use because it is different every a scene loads.
+In my case I wanted to have a **connection of a component and a file** and it should be persistent. The InstanceID of an Component (aswell as from the GameObject) isn't any use because it is different every a scene loads.
 
 ![confused]({{ site.baseurl }}/images/smileys/shocked_small.png)
 
@@ -43,7 +43,8 @@ With the following snippet you can access the "m_LocalIdentfierInFile". Make sur
         typeof(UnityEditor.SerializedObject).GetProperty ("inspectorMode", BindingFlags.NonPublic
                 | BindingFlags.Instance);
 
-        UnityEditor.SerializedObject serializedObject = new UnityEditor.SerializedObject (comp);
+        UnityEditor.SerializedObject serializedObject = 
+        new UnityEditor.SerializedObject (comp);
         inspectorModeInfo.SetValue (serializedObject, UnityEditor.InspectorMode.Debug, null);
 
         UnityEditor.SerializedProperty localIdProp =
@@ -56,7 +57,7 @@ With the following snippet you can access the "m_LocalIdentfierInFile". Make sur
     }
 {% endhighlight %}
 
-(This snippet was provided by "thelackey3326" in <a href="http://forum.unity3d.com/threads/how-to-get-the-local-identifier-in-file-for-scene-objects.265686/" target="_blank">this UnityForum post</a>. )
+(This snippet was provided by **"thelackey3326"** in <a href="http://forum.unity3d.com/threads/how-to-get-the-local-identifier-in-file-for-scene-objects.265686/" target="_blank">this UnityForum post</a>. )
 
 
 Here an InspectorScript snippet which uses OnEnable() to call the init() method.
@@ -91,7 +92,7 @@ There is the possibility to hook in when the scene is **being saved**, unfortuna
     }
 {% endhighlight %}
 
-(Find the full script on <a href="https://gist.github.com/DomDomHaas/74b337f8c061fa096185" target="_blank">my Gist</a> it's specific for my implementation so copy/paste won't work directly, but you can see how it works)
+(Find the <a href="https://gist.github.com/DomDomHaas/74b337f8c061fa096185" target="_blank">full script on my Gist</a> it's specific for my implementation so copy/paste won't work directly, but you can see how it works)
 
 Using that hook means: if you create an GameObject which uses the Editor-Snippet to get the "m_LocalIdentfierInFile" you have to save the scene at least twice after that. First time to set the "m_LocalIdentfierInFile" by Unity itself and second to store it in the local variable. It is not the most convenient way, but good enough, just setup a scene with the persistent GameObject first.
 
