@@ -34,27 +34,28 @@ And here is how you can do it too: ![confused]({{ site.baseurl }}/images/smileys
 With the following snippet you can access the "m_LocalIdentfierInFile". Make sure it is surrounded with the **"#if UNITY_EDITOR"** and don't use "using UnityEditor;" otherwise you can't create a build!
 
 {% highlight c# %}
-    // Init this instance, it's public so it can be called from a InspectorScript
-    // is only set via the unity editor
-    public void init ()
-    {
-        #if UNITY_EDITOR
-        PropertyInfo inspectorModeInfo =
-        typeof(UnityEditor.SerializedObject).GetProperty ("inspectorMode", BindingFlags.NonPublic
-                | BindingFlags.Instance);
+// Init this instance, it's public so it can be called from a InspectorScript
+// is only set via the unity editor
+public void init ()
+{
+    #if UNITY_EDITOR
+    PropertyInfo inspectorModeInfo =
+    typeof(UnityEditor.SerializedObject).GetProperty ("inspectorMode",
+    BindingFlags.NonPublic | BindingFlags.Instance);
 
-        UnityEditor.SerializedObject serializedObject = 
-        new UnityEditor.SerializedObject (comp);
-        inspectorModeInfo.SetValue (serializedObject, UnityEditor.InspectorMode.Debug, null);
+    UnityEditor.SerializedObject serializedObject = 
+    new UnityEditor.SerializedObject (comp);
 
-        UnityEditor.SerializedProperty localIdProp =
-        serializedObject.FindProperty ("m_LocalIdentfierInFile")  
-        
-        //Debug.Log ("found property: " + localIdProp.intValue);
+    inspectorModeInfo.SetValue (serializedObject, UnityEditor.InspectorMode.Debug, null);
 
-        persistentID = localIdProp.intValue;
-        #endif
-    }
+    UnityEditor.SerializedProperty localIdProp =
+    serializedObject.FindProperty ("m_LocalIdentfierInFile")  
+
+    //Debug.Log ("found property: " + localIdProp.intValue);
+
+    persistentID = localIdProp.intValue;
+    #endif
+}
 {% endhighlight %}
 
 (This snippet was provided by **"thelackey3326"** in <a href="http://forum.unity3d.com/threads/how-to-get-the-local-identifier-in-file-for-scene-objects.265686/" target="_blank">this UnityForum post</a>. )
