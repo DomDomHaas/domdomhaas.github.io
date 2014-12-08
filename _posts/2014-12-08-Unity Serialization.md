@@ -16,8 +16,11 @@ I like the misspelling... I wonder if it will be fixed in Untiy 5? :)
 
 So I figured there must be a way to use the same part for my case. A main problem is that the UnityEngine doesn't expose how it works and as far as I could material on the i-net on it, it's done on the c++ side of the engine.
 
+---
+
 **Long story short:**
 After trying many things I came up with a simple workaround, which is creating a copy of the "m_LocalIdentfierInFile" while being in the UnityEditor and saving it as serialized property.
+
 **Spoiler:** It won't work for GameObjects / Components which are created during runtime. 
 
 
@@ -25,9 +28,9 @@ And here is how you can do it too: ![confused]({{ site.baseurl }}/images/smileys
 
 
 {% highlight c# %}
-    // This is a copy of the "m_localIndentiferInFile"
-    [SerializeField]
-    private int persistentID = -1;
+// This is a copy of the "m_localIndentiferInFile"
+[SerializeField]
+private int persistentID = -1;
 {% endhighlight %}
 
 
@@ -64,10 +67,10 @@ public void init ()
 Here an InspectorScript snippet which uses OnEnable() to call the init() method.
 
 {% highlight c# %}
-    public void OnEnable ()
-    {
-        myPersist.init ();
-    }
+public void OnEnable ()
+{
+    myPersist.init ();
+}
 {% endhighlight %}
 
 
@@ -76,7 +79,9 @@ This only works once the scene is saved (before there is no "m_LocalIdentfierInF
 
 
 Usually if you drag an Prefab into a scene you will at some point click on it and do something with it, but it's not a very nice workflow.
+
 ![confused]({{ site.baseurl }}/images/smileys/confused_small.png)
+
 There is the possibility to hook in when the scene is **being saved**, unfortunately Unity doesn't provide a function to hook in **after** a scene was saved. So here's a code snippet to call the init() function before a scene is saved.
 
 {% highlight c# %}
