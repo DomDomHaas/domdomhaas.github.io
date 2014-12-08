@@ -103,6 +103,7 @@ There is the possibility to hook in when the scene is **being saved**, unfortuna
 Using that hook means: if you create an GameObject which uses the Editor-Snippet to get the "m_LocalIdentfierInFile" you have to save the scene at least twice after that. First time to set the "m_LocalIdentfierInFile" by Unity itself and second to store it in the local variable. It is not the most convenient way, but good enough, just setup a scene with the persistent GameObject first.
 
 
+
 ---
 
 
@@ -110,15 +111,14 @@ Was my nerd work useful to you?
 
 ![please]({{ site.baseurl }}/images/smileys/nerd_small.png)
 
-Please consider a small donation, and give me some fuel aka. coffee to dig into further programming problems:
+Please consider a small donation so I can get some fuel aka. coffee to dig into further programming problems:
 
 <!--div class="flatter_button">
     <a href="https://flattr.com/submit/auto?user_id=DomDomHaas&url=http%3A%2F%2Fdomdomhaas.github.io%2FUnity%2520Serialization%2F" target="_blank"><img src="//api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a>
 </div-->
 
 
-<script id='fbqf99r'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=DomDomHaas&button=compact&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbqf99r');</script>
-
+<script id='fbqki18'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=DomDomHaas&url=http%3A%2F%2Fdomdomhaas.github.io%2FUnity%2520Serialization%2F';f.title='Flattr';f.height=62;f.width=55;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbqki18');</script>
 
 ---
 
