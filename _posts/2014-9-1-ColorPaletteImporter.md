@@ -68,20 +68,22 @@ for (int i = 0; i < yourAwesomePalette.myData.colors.Length; i++) {
 
 See the **How to integrate it** part of the [**ColorPalette**](http://domdomhaas.github.io/ColorPalette/) more details!
 
-***
+
+---
 
 
+Did you like this post? 
 
-Did you like this post? Please consider a small donation:
+![please]({{ site.baseurl }}/images/smileys/please_small.png)
+
+
+Please consider a small donation:
 
 <!--div class="flatter_button">
     <a href="https://flattr.com/submit/auto?user_id=DomDomHaas&url=http%3A%2F%2Fdomdomhaas.github.io%2FColorPaletteImporter%2F" target="_blank"><img src="//api.flattr.com/button/flattr-badge-large.png" alt="Flattr this" title="Flattr this" border="0"></a>
 </div-->
 
 <script id='fbqf99r'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=DomDomHaas&button=compact&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbqf99r');</script>
-
-
-![please]({{ site.baseurl }}/images/smileys/please_small.png)
 
 
 ---
