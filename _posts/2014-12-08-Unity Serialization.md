@@ -98,7 +98,7 @@ There is the possibility to hook in when the scene is **being saved**, unfortuna
     }
 {% endhighlight %}
 
-(Find the <a href="https://gist.github.com/DomDomHaas/74b337f8c061fa096185" target="_blank">full script on my Gist</a> it's specific for my implementation so copy/paste won't work directly, but you can see how it works)
+(Find the <a href="https://gist.github.com/DomDomHaas/74b337f8c061fa096185" target="_blank">full script on my Gist</a> it's specific for my implementation so copy/paste won't work directly, but you can see how it works. The main thing is that you inherit from "AssetModificationProcessor".)
 
 Using that hook means: if you create an GameObject which uses the Editor-Snippet to get the "m_LocalIdentfierInFile" you have to save the scene at least twice after that. First time to set the "m_LocalIdentfierInFile" by Unity itself and second to store it in the local variable. It is not the most convenient way, but good enough, just setup a scene with the persistent GameObject first.
 
@@ -118,4 +118,7 @@ Please consider a small donation, and give me some fuel aka. coffee to dig into 
 
 
 <script id='fbqf99r'>(function(i){var f,s=document.getElementById(i);f=document.createElement('iframe');f.src='//api.flattr.com/button/view/?uid=DomDomHaas&button=compact&url='+encodeURIComponent(document.URL);f.title='Flattr';f.height=20;f.width=110;f.style.borderWidth=0;s.parentNode.insertBefore(f,s);})('fbqf99r');</script>
+
+
+---
 
