@@ -58,12 +58,14 @@ public void init ()
     //Debug.Log ("found property: " + localIdProp.intValue);
 
     persistentID = localIdProp.intValue;
+    //Important set the component to dirty so it won't be overriden from a prefab!
+    UnityEditor.EditorUtility.SetDirty (this);
     #endif
 }
 {% endhighlight %}
 
 (This snippet was provided by **"thelackey3326"** in <a href="http://forum.unity3d.com/threads/how-to-get-the-local-identifier-in-file-for-scene-objects.265686/" target="_blank">this UnityForum post</a>. )
-
+With the addition of the **"UnityEditor.EditorUtility.SetDirty (this);"** line, **very important** to prevent prefabs from overriding the persistentID!
 
 Here an InspectorScript snippet which uses OnEnable() to call the init() method.
 
