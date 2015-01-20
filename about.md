@@ -7,7 +7,7 @@ title: About Dominik
 ![Dominik]({{ site.baseurl }}/images/dominik.jpg)
 
 
-Dominik Haas is passionated about interactive applications and therefore about games. He has been working for more than 10 years in software development. Working in different fields like rich client and client-server applications, web development, front- & backend programming. Recently he started studying **Game Design** at the Zurich University of the Arts and is going to graduate in summer 2015.
+Dominik Haas is passionated about interactive applications and therefore he enjoys creating games very much. He has been working for more than 10 years in software development. Working in different fields like rich client and client-server applications, web development, front- & backend programming. Recently he started studying **Game Design** at the Zurich University of the Arts and is going to graduate in summer 2015.
 
 
 ### Portfolio
