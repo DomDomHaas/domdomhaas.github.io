@@ -12,14 +12,13 @@ Dominik Haas is passionated about interactive applications and therefore about g
 
 ### Portfolio
 
-Have a look at my work other than programming for Games:
-
-[GameDesign - Portfolio](http://www.dominikhaas.ch) : <http://www.dominikhaas.ch>
-
+Have a look at Dominiks work other than programming for Games:
+[GameDesign - Portfolio](http://www.dominikhaas.ch)
 
 
 
-### Contact me
 
-Besides the different online platforms feel free to contact me via email:
+### Contact
+
+Besides the different online platforms feel free to contact via email:
 [dominik.haas_at_gmx.ch](mailto:dominik.haas_at_gmx.ch)
