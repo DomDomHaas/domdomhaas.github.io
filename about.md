@@ -3,13 +3,19 @@ layout: page
 title: About
 ---
 
-I'm passionated about interactive application and of course especially about games. I've been working for 10 years at the bank in software development and 2 years in web development. Recently I started studying **GameDesign**  .
+
+![Dominik]({{ site.baseurl }}/images/dominik.jpg)
+
+
+Dominik Haas is passionated about interactive applications and therefore about games. He has been working for more than 10 years in software development. Working in different fields like rich client and client-server applications, web development, front- & backend programming. Recently he started studying **Game Design** at the Zurich University of the Arts and is going to graduate in summer 2015.
 
 
 ### Portfolio
 
-Have a look at some of my work other than programming:
+Have a look at my work other than programming for Games:
+
 [GameDesign - Portfolio](http://www.dominikhaas.ch) : <http://www.dominikhaas.ch>
+
 
 
 
