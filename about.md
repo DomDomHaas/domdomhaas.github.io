@@ -1,6 +1,6 @@
 ---
 layout: page
-title: About
+title: About Dominik
 ---
 
 
@@ -14,6 +14,7 @@ Dominik Haas is passionated about interactive applications and therefore about g
 
 Have a look at Dominiks work other than programming for Games:
 [GameDesign - Portfolio](http://www.dominikhaas.ch)
+
 
 
 
