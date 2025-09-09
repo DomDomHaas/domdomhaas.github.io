@@ -1,0 +1,96 @@
+{
+  "projects": [
+    {
+      "title": "EnviDat - WSL",
+      "items": [
+        {
+          "title": "Software Life Cycle of the EnviDat Frontend",
+          "images": ["/images/projects/EnviDat_Flyer.jpg","/images/projects/EnviDat_logo_128.png"],
+          "tags": ["vue", "vite", "vitest", "frontend", "vuetify", "storybook", "typescript", "leaflet", "AmCharts", "chart.js"],
+          "content": "envidatFrontend"
+        },
+        {
+          "title": "Pre-rendering for SEO",
+          "images": ["/images/projects/EnviDat_Flyer.jpg","/images/projects/EnviDat_logo_128.png"],
+          "tags": ["vue", "vite", "vike.dev", "S3 Buckets"],
+          "content": "preRenderingSEO"
+        },
+        {
+          "title": "Senior Software Engineer",
+          "images": ["/images/projects/EnviDat_Poster_Showcase.jpg","/images/projects/EnviDat_logo_128.png"],
+          "tags": ["lead programmer", "code reviews", ""]
+        },
+        {
+          "title": "ICP Forest Defoliation",
+          "images": ["/images/projects/EnviDat_Poster_Showcase.jpg","/images/projects/EnviDat_logo_128.png"],
+          "tags": ["data visualization", "typescript", "vue", "bulma", "chart.js", "open layers"]
+        },
+        {
+          "title": "CI/CD Pipelines",
+          "images": ["/images/projects/EnviDat_logo_128.png"],
+          "tags": ["gitlab", "pipeline", "docker", "rclone", "S3 Buckets", "DevOps"]
+        },
+        {
+          "title": "GenDib Frontend And Map",
+          "images": ["/images/projects/EnviDat_Poster_Showcase.jpg","/images/projects/EnviDat_logo_128.png"],
+          "tags": ["data visualization", "typescript", "vue", "bulma", "chart.js", "open layers"]
+        },
+        {
+          "title": "Design of Logo & Posters",
+          "images": ["/images/projects/EnviDat_Poster_Showcase.jpg","/images/projects/EnviDat_logo_128.png"],
+          "tags": ["design", "logo"]
+        },
+        {
+          "title": "Senior Software Engineer",
+          "images": ["/images/projects/EnviDat_Poster_Showcase.jpg","/images/projects/EnviDat_logo_128.png"],
+          "tags": ["lead programmer", "code reviews", ""]
+        }
+      ]
+    },
+    {
+      "title": "BitForge AG",
+      "items": [{
+        "title": "Fooby",
+        "images": [],
+        "tags": ["xamarin", "cross-platform", "mobile", "C#"],
+        "content": "bitforgeFooby"
+      }]
+    },
+    {
+      "title": "Amiado Group GmbH"
+    },
+    {
+      "title": "UBS AG"
+    },
+    {
+      "title": "Games",
+      "items": [{
+        "title": "DERU - The Art Of Cooperation",
+        "images": ["/images/projects/deru_triangle.webp"],
+        "tags": ["unity", "C#", "steam", "switch", "team lead", "itch.io", "lead programmer", "game design"],
+        "content": "deru"
+      },{
+        "title": "Black Monday - Bachelor Project",
+        "images": [],
+        "tags": ["unity", "C#", "itch.io", "action game", "lead programmer", "programming", "game design"],
+        "content": "blackMonday"
+      },{
+        "title": "Duels of Shadows",
+        "images": [],
+        "tags": ["playdate", "lua", "action game", "itch.io", "programming", "game design"]
+      },{
+        "title": "Maki Maker",
+        "images": [],
+        "tags": ["playdate", "lua", "itch.io", "programming", "game design"]
+      }]
+    },
+    {
+      "title": "Side Projects",
+      "items": [{
+        "title": "Playdate Advent Website",
+        "images": [],
+        "tags": ["vue", "vite", "pinia", "playdate", "itch.io"]
+      }]
+    }
+  ]
+}
