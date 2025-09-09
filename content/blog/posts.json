@@ -1,0 +1,46 @@
+{
+  "blogPosts": [
+    {
+      "title": "Character Reveal: Samurai",
+      "img": "/images/blog/samurai.gif",
+      "description": "Reveal of the 2nd character and progress on for Duels of Shadows!",
+      "content": "characterReveal",
+      "date": "26.08.2025"
+    },
+    {
+      "title": "Frame-Based Collisions",
+      "img": "/images/blog/framebased_collision.png",
+      "description": "Detailed post about the frame-based triggering of collision based on the AnimateSprite library.",
+      "content": "frameBasedCollision",
+      "date": "03.08.2025"
+    },
+    {
+      "title": "DevBlog: Aftermath of the Boss Rush Game Jam 2025",
+      "img": "/images/blog/DuelOfShadowsStats.png",
+      "description": "Thank everyone who downloaded and played Duels of Shadows!",
+      "content": "aftermathBossRushJam",
+      "date": "03.05.2025"
+    },
+    {
+      "title": "Uncrankd Game Jam 2025 Winter Edition",
+      "img": "/images/blog/uncrankd_winter_gamejam_2025.png",
+      "description": "My experience playing and judging games of the Game Jam.",
+      "content": "uncrankedGameJam2025",
+      "date": "28.02.2025"
+    },
+    {
+      "title": "DevBlog: Start of a Boss Rusher Game?",
+      "img": "/images/blog/DotS.gif",
+      "description": "Is a game with only boss fights fun and can it scale?",
+      "content": "bossRusher",
+      "date": "04.02.2025"
+    },
+    {
+      "title": "After The Yellow Square Game Jam",
+      "img": "/images/blog/afterYellowSquareJam.gif",
+      "description": "I wanted to relax and play some playdate games, sleep and regenerate. But that's not what happened!",
+      "content": "afterTheYellowSquareJam",
+      "date": "09.01.2024"
+    }
+  ]
+}
