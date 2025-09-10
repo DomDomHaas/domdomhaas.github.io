@@ -41,6 +41,13 @@
       "description": "I wanted to relax and play some playdate games, sleep and regenerate. But that's not what happened!",
       "content": "afterTheYellowSquareJam",
       "date": "09.01.2024"
+    },
+    {
+      "title": "New Dataset Creation",
+      "img": "/images/blog/creationworkflow/dataset_creation_header_small.jpg",
+      "description": "The team at EnviDat is happy to announce the new workflow for dataset creation. We simplified the creation and editing of datasets.",
+      "content": "new_creation_workflow",
+      "date": "08.08.2023"
     }
   ]
 }
