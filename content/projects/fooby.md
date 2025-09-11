@@ -6,4 +6,4 @@ While working on the [Fooby](https://fooby.ch) mobile app I've designed and impl
 
 ### Tech stack
 
-The tech stack used at that time was the cross-platform framework xamarin which is based on C# with .NET. [Bitforge](https://bitforge.ch/en/project/fooby/) later re-implemented the whole app with flutter (Microsoft [ended the support for Xamarin on May 1, 2024](https://en.wikipedia.org/wiki/Xamarin)).
+The tech stack used at that time was the cross-platform framework xamarin which is based on C# with .NET. <a href="https://bitforge.ch/en/project/fooby/" target="_blank">Bitforge</a> later re-implemented the whole app with flutter (Microsoft <a href="https://en.wikipedia.org/wiki/Xamarin" target="_blank">ended the support for Xamarin on May 1, 2024</a>).

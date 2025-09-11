@@ -36,9 +36,9 @@ And influences the appearance of the dataset in the list.
 
 ### UI Design
 
-The design of EnviDat is based on the [material design from google (v2)](https://m2.material.io/) which is implemented by the [vuetify component library](https://vuetifyjs.com/en/introduction/why-vuetify/). This library provides behavior and styling, so according to the separation of [modular UI libraries of headless, boneless and skinless](https://nerdy.dev/headless-boneless-and-skinless-ui), it falls in the category of "fully loaded" / batteries included libraries (Additional good read about [headless and primitives](https://dev.to/danielkov/visual-primitives-and-headless-uis-a-modern-ui-library-trend-19jk)).
+The design of EnviDat is based on the <a href="https://m2.material.io/" target="_blank">material design from google (v2)</a> which is implemented by the <a href="https://vuetifyjs.com/en/introduction/why-vuetify/" target="_blank">vuetify component library</a>. This library provides behavior and styling, so according to the separation of <a href="https://nerdy.dev/headless-boneless-and-skinless-ui" target="_blank">modular UI libraries of headless, boneless and skinless</a>, it falls in the category of "fully loaded" / batteries included libraries (Additional good read about <a href="https://dev.to/danielkov/visual-primitives-and-headless-uis-a-modern-ui-library-trend-19jk" target="_blank">headless and primitives</a>).
 
-This choice made sense as I started as a single frontend engineer on a 60% workload and using vuetify provided a material design implementation in vue.js out-of-the-box. That let me focus on the redesign and replace what was given by the CKAN CMS, I created the website from scratch with the focus on simplicity and usability.
+This choice was made for it's look and feel: threating the different layers of an interface as "physical material" elements, to give the website a feel of concise single-page web application vs a website which contains a lot of scrollable content. The choice also made sense from a efficiency perspective, as I started as a single frontend engineer on a 60% workload, using vuetify provided a material design implementation in vue.js out-of-the-box. That let me focus on the redesign and replace what was given by the CKAN CMS, I created the website from scratch with the focus on simplicity and usability.
 
 
 However using vuetify also came at a cost, as we had to delay the migration from vue version 2 to 3 due vuetify taking pretty long to release their version 3 (based on vue 3) and once it was released, multiple components weren't re-implemented yet. Most notably the component for date picking, which we used and we didn't want to build in a temporary solution only to replace it once again after a few months.
@@ -58,7 +58,7 @@ In summary, the new EnviDat logo has a simple and unique look and feel of the tw
 
 ### Presentations & Poster Design
 
-The challenge in communication scientific topics is often that it is based on a lot of information or every specific knowledge, breaking it down it in simple understandable terms is important. I created presentations and posters for various scientific events in the environmental research community, these were about scientific activities of the EnviDat team. 
+The challenge in communication scientific topics is often that it is based on a lot of information or every specific knowledge, breaking it down it in simple understandable terms is important. I created presentations and posters for various scientific events in the environmental research community, these were mostly about scientific activities of the EnviDat team. 
 
 
 
