@@ -1,5 +1,5 @@
 
-After graduation in Game Design at the ZHdK, I’ve developed [DERU – The Art of Cooperation](https://www.deru.ch).
+After graduation in Game Design at the ZHdK, I’ve developed <a href="https://www.deru.ch" target="_blank">DERU – The Art of Cooperation</a>.
 It won +10 Awards, including Best Swiss Game 2017 and was self-published in Nov. 2018.
 
 ### Game Design
