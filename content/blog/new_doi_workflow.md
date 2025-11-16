@@ -1,7 +1,7 @@
 24.10.2023
 # Improved DOI Workflow
 
-We are happy to annouce that as of today there are two new features are available on EnviDat:
+We are happy to announce that as of today there are two new features are available on EnviDat:
 
  - a new workflow for dataset publishing (with a DOI)
  - and a simple way to reorder the authors of a dataset.  
@@ -22,7 +22,7 @@ We are happy to annouce that as of today there are two new features are availabl
 
 The new DOI interaction looks like this:
 
-![doiworkflow](https://s3-zh.os.switch.ch/frontend-static/blog/images/doiworkflow/doiworkflow.gif "doiworkflow")
+![doiworkflow](/images/blog/doiworkflow/doiworkflow.gif "doiworkflow")
 
 
 **But don't just click through as shown in the gif.
@@ -61,7 +61,7 @@ On the right side in the "Author List Preview", click on the line to expand the 
 
 Simply move an author to the position you want it to be, like shown in this example:
 
-![reordering](https://s3-zh.os.switch.ch/frontend-static/blog/images/doiworkflow/authorreordering.gif "reordering")
+![reordering](/images/blog/doiworkflow/authorreordering.gif "reordering")
 
 When reordering multiple authors make sure to wait for the changes to save before moving another one.
 

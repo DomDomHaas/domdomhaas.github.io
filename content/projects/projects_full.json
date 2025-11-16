@@ -48,12 +48,22 @@
       ]
     },
     {
-      "title": "BitForge AG",
+      "title": "BitForge - 2017",
       "items": [{
-        "title": "Fooby",
-        "images": [],
-        "tags": ["xamarin", "cross-platform", "mobile", "C#"],
-        "content": "bitforgeFooby"
+        "title": "Fooby Mobile App",
+        "hero": "/images/projects/fooby/fooby_hero.webp",
+        "preview": "/images/projects/deru/deru_triangle.webp",
+        "tldr": "The digital kitchen assistant from Coop developed by Bitforge AG let's you browse through various recipes to get inspired for new and creative ideas in the kitchen.",
+        "images": [
+          "/images/projects/fooby/fooby_2.webp",
+          "/images/projects/fooby/fooby_3.webp",
+          "/images/projects/fooby/fooby_mobile_1.webp",
+          "/images/projects/fooby/fooby_mobile_2.webp",
+          "/images/projects/fooby/fooby_mobile_3.webp",
+          "/images/projects/fooby/fooby_mobile_4.webp"
+        ],
+        "tags": ["xamarin", "cross-platform", "mobile", "C#", "software architecture"],
+        "content": "fooby"
       }]
     },
     {
@@ -64,17 +74,42 @@
     },
     {
       "title": "Games",
-      "items": [{
-        "title": "DERU - The Art Of Cooperation",
-        "images": ["/images/projects/deru_triangle.webp"],
-        "tags": ["unity", "C#", "steam", "switch", "team lead", "itch.io", "lead programmer", "game design"],
-        "content": "deru"
-      },{
-        "title": "Black Monday - Bachelor Project",
-        "images": [],
-        "tags": ["unity", "C#", "itch.io", "action game", "lead programmer", "programming", "game design"],
-        "content": "blackMonday"
-      },{
+      "items": [
+        {
+          "title": "DERU - 2018",
+          "hero": "/images/projects/deru/hero.webp",
+          "preview": "/images/projects/deru/deru_triangle_small.webp",
+          "tldr": "Black Monday is an local multiplayer, arena brawler with betting mechanics. Players bet on themselves or on the enemy and try to manipulate the result to their advantage.",
+          "images": [
+            "/images/projects/deru/pass_the_streams.gif",
+            "/images/projects/deru/protect.gif",
+            "/images/projects/deru/flyer_deru_b_qr_link.webp",
+            "/images/projects/deru/screen_5.webp",
+            "/images/projects/deru/journey_opposites.gif",
+            "/images/projects/deru/cooperate.gif",
+            "/images/projects/deru/Deru_Poster_Split2.webp",
+            "/images/projects/deru/screen_1_2.webp",
+            "/images/projects/deru/screen_3_2.webp",
+            "/images/projects/deru/screen_12.webp",
+            "/images/projects/deru/screen_8.webp"
+          ],
+          "tags": ["unity", "C#", "team lead", "lead programmer", "game design"],
+          "content": "deru"
+        },
+        {
+          "title": "Black Monday - 2015",
+          "hero": "/images/projects/blackmonday/hero.webp",
+          "preview": "/images/projects/blackmonday/deru_triangle_small.webp",
+          "tldr": "Black Monday is an local multiplayer, arena brawler with betting mechanics. Players bet on themselves or on the enemy and try to manipulate the result to their advantage.",
+          "images": [
+            "/images/projects/blackmonday/pass_the_streams.gif",
+            "/images/projects/blackmonday/protect.gif",
+            "/images/projects/blackmonday/flyer_deru_b_qr_link.webp"
+          ],
+          "tags": ["unity", "C#", "team lead", "lead programmer", "game design"],
+          "content": "blackmonday"
+      },
+      {
         "title": "Duels of Shadows",
         "images": [],
         "tags": ["playdate", "lua", "action game", "itch.io", "programming", "game design"]
